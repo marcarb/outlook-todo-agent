@@ -10,7 +10,7 @@ const OutlookTodoAgent = () => {
   const [showSetup, setShowSetup] = useState(true);
 
   // Microsoft Graph API configuration
-  const clientId = 'YOUR_CLIENT_ID'; // Replace with your Azure AD app client ID
+  const clientId = 'd3b50705-469e-42d8-9c00-22733ee3f1bc'; // Replace with your Azure AD app client ID
   const redirectUri = window.location.origin;
   const scopes = ['Mail.Read', 'User.Read'];
 
